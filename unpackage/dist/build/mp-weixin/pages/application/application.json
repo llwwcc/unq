@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "会员认证",
+  "usingComponents": {
+    "xfl-select": "/components/xfl-select/xfl-select"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="content data-v-6e212364"><view class="text data-v-6e212364"><text class="data-v-6e212364">您已经是会员,请绑定到当前微信</text></view><button class="btn data-v-6e212364" open-type="getUserInfo" data-event-opts="{{[['getuserinfo',[['getUserInfo',['$event']]]]]}}" bindgetuserinfo="__e">立即认证</button></view>

@@ -1,0 +1,394 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// {
+		// 	"path": "pages/application/error",
+		// 	"style": {
+		// 		"navigationBarTitleText": "会员认证"
+		// 	}
+		// },
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "郑州女企协会"
+			}
+		},
+		{
+			"path": "pages/application/member",
+			"style": {
+				
+				"navigationBarTitleText": "会员认证"
+			}
+		},
+		{
+			"path": "pages/application/success",
+			"style": {
+				"navigationBarTitleText": "会员认证"
+			}
+		},
+		
+		{
+			"path": "pages/member/details",
+			"style": {
+				"navigationBarTitleText": "会员详情",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/shop/shop",
+			"style": {
+				"navigationBarBackgroundColor": "#FF0060",
+				"navigationBarTitleText": "商城"
+				// "app-plus": {
+				// 	"titleNView": {
+				// 		"searchInput": {
+				// 			"backgroundColor": "#fff",
+				// 			"borderRadius": "16px",
+				// 			"placeholder": "茶叶"
+				// 		}
+				// 	}
+				// }
+			}
+		},
+		{
+			"path": "pages/shop/shop-details",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},	
+		{
+			"path": "pages/shop/shop-recommed",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},	
+		{
+			"path": "pages/shop/order",
+			"style": {
+				"navigationBarTitleText": "订单确认",
+				"navigationBarBackgroundColor": "#ccc"
+			}
+		},
+		{
+			"path": "pages/money/pay",
+			"style": {
+				"navigationBarTitleText": "支付",
+				"navigationBarBackgroundColor": "#FF0060"
+			}
+		},
+		{
+			"path": "pages/money/paySuccess",
+			"style": {
+				"navigationBarTitleText": "支付成功",
+				"navigationBarBackgroundColor": "#FF0060"
+			}
+		},
+		{
+			"path": "pages/address/address",
+			"style": {
+				"navigationBarTitleText": "收货地址",
+				"navigationBarBackgroundColor": "#F5F5F5",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/address/addressManage",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/shaky/shaky",
+			"style": {
+				"navigationBarTitleText": "活动",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/member/member",
+			"style": {
+				"navigationBarTitleText": "我的会员",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/member/userphoto",
+			"style": {
+				"navigationBarTitleText": "个人照片",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		
+		
+		{
+			"path": "pages/myhome/taken/myhome",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#EA64B1"
+				
+			}
+		},
+		
+		// {
+		// 	"path": "pages/myhome/means/LOGO",
+		// 	"style": {
+		// 		"navigationBarTitleText": "企业LOGO",
+		// 		"navigationBarBackgroundColor": "#FFFFFF",
+		// 		"navigationBarTextStyle": "black"
+		// 	}
+		// },
+		{
+			"path": "pages/myhome/means/tagline",
+			"style": {
+				"navigationBarTitleText": "企业宣传语",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/myhome/means/card",
+			"style": {
+				"navigationBarTitleText": "身份证照片",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/myhome/means/license",
+			"style": {
+				"navigationBarTitleText": "营业执照",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		
+		
+		
+		
+		
+		
+		
+		{
+			"path": "pages/myhome/taken/taken",
+			"style": {
+				"navigationBarTitleText": "缴费记录"
+			}
+		},
+		{
+			"path": "pages/myhome/member/member",
+			"style": {
+				"navigationBarTitleText": "入会申请"
+			}
+		},
+		{
+			"path": "pages/myhome/means/means",
+			"style": {
+				"navigationBarTitleText": "我的资料",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/myhome/meFace/meFace",
+			"style": {
+				"navigationBarTitleText":"头像上传",
+				"navigationBarBackgroundColor":"#000000",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/myhome/faceCrop/faceCrop",
+			"style": {
+				"navigationBarTitleText":"裁剪图片",
+				"navigationBarBackgroundColor":"#000000",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/myhome/means/firm",
+			"style": {
+				"navigationBarTitleText": "主营业务",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/myhome/means/manage",
+			"style": {
+				"navigationBarTitleText": "企业信息",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/myhome/means/product",
+			"style": {
+				"navigationBarTitleText": "公司产品",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/myhome/means/icon",
+			"style": {
+				"navigationBarTitleText": "头像"
+			}
+		},
+		{
+			"path": "pages/myhome/order/order",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/myhome/order/fulfil",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/myhome/order/stock",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/myhome/order/pay",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		// {
+		// 	"path": "pages/myhome/takenreferral",
+		// 	"style": {
+		// 		"navigationBarTitleText": "我的推荐码",
+		// 		"navigationBarBackgroundColor": "#fff",
+		// 		"navigationBarTextStyle": "black"
+		// 	}
+		// },
+		{
+			"path": "pages/myhome/integral/integral",
+			"style": {
+				"navigationBarTitleText": "我的积分",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+		 	"path": "pages/myhome/taken/enroll",
+		 	"style": {
+		 		"navigationBarTitleText": "我的报名",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+		 	}
+		},
+		{
+		 	"path": "pages/enroll/enroll-details",
+		 	"style": {
+		 		"navigationBarTitleText": "活动详情"
+		 	}
+		},
+		{
+		 	"path": "pages/enroll/engage",
+		 	"style": {
+		 		"navigationBarTitleText": "活动详情"
+		 	}
+		},
+		// {
+		//  	"path": "pages/enroll/details",
+		//  	"style": {
+		//  		"navigationBarTitleText": "活动详情"
+		//  	}
+		// },
+		{
+		 	"path": "pages/interact/interact",
+		 	"style": {
+		 		"navigationBarTitleText": "发布互动",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+		 	}
+		},
+		{
+			"path": "pages/member/slogan",
+			"style": {
+				"navigationBarTitleText": "企业宣传语",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+		 	"path": "pages/sign/sign-in",
+		 	"style": {
+		 		"navigationBarTitleText": "签到成功"
+		 	}
+		},
+		{
+		 	"path": "pages/sign/check-in",
+		 	"style": {
+		 		"navigationBarTitleText": "签到失败"
+		 	}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "郑州女企协会"
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/forget-pwd/forget-pwd",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		}
+	],
+	"globalStyle": {
+		// "navigationBarTextStyle": "#fff",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FF0060"
+		// "backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#C0C4CC",
+		"selectedColor": "#fa436a",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tab_ShouYedd.png",
+				"selectedIconPath": "static/tab_ShouYe.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/member/member",
+				"iconPath": "static/tab_HuiYuandd.png",
+				"selectedIconPath": "static/tab_hy.png",
+				"text": "会员"
+			},
+			{
+				"pagePath": "pages/shop/shop",
+				"iconPath": "static/tab_ShangChengdd.png",
+				"selectedIconPath": "static/tab_sh.png",
+				"text": "商城"
+			},
+			{
+				"pagePath": "pages/myhome/taken/myhome",
+				"iconPath": "static/tab_WoDedd.png",
+				"selectedIconPath": "static/tab_WoDe.png",
+				"text": "我的"
+			}
+		]
+	}
+}

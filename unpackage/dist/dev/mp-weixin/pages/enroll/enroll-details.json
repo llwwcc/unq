@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "活动详情",
+  "usingComponents": {
+    "q-s-popup": "/components/QS-popup/QS-popup",
+    "parser": "/components/jyf-Parser/index"
+  }
+}

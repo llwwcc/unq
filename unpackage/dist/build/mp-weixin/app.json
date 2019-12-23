@@ -1,0 +1,87 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/application/member",
+    "pages/application/success",
+    "pages/member/details",
+    "pages/application/application",
+    "pages/shop/shop",
+    "pages/shop/shop-details",
+    "pages/shop/order",
+    "pages/money/pay",
+    "pages/money/paySuccess",
+    "pages/address/address",
+    "pages/address/addressManage",
+    "pages/shaky/shaky",
+    "pages/member/member",
+    "pages/member/userphoto",
+    "pages/myhome/taken/myhome",
+    "pages/myhome/means/tagline",
+    "pages/myhome/means/card",
+    "pages/myhome/means/license",
+    "pages/myhome/taken/taken",
+    "pages/myhome/member/member",
+    "pages/myhome/means/means",
+    "pages/myhome/meFace/meFace",
+    "pages/myhome/faceCrop/faceCrop",
+    "pages/myhome/means/firm",
+    "pages/myhome/means/manage",
+    "pages/myhome/means/album",
+    "pages/myhome/means/product",
+    "pages/myhome/means/icon",
+    "pages/myhome/order/order",
+    "pages/myhome/order/fulfil",
+    "pages/myhome/order/stock",
+    "pages/myhome/order/pay",
+    "pages/myhome/integral/integral",
+    "pages/myhome/taken/enroll",
+    "pages/enroll/enroll-details",
+    "pages/enroll/engage",
+    "pages/interact/interact",
+    "pages/member/slogan",
+    "pages/sign/sign-in",
+    "pages/sign/check-in",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget-pwd/forget-pwd"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FF0060"
+  },
+  "tabBar": {
+    "color": "#C0C4CC",
+    "selectedColor": "#fa436a",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tab_ShouYedd.png",
+        "selectedIconPath": "static/tab_ShouYe.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/member/member",
+        "iconPath": "static/tab_HuiYuandd.png",
+        "selectedIconPath": "static/tab_hy.png",
+        "text": "会员"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "iconPath": "static/tab_ShangChengdd.png",
+        "selectedIconPath": "static/tab_sh.png",
+        "text": "商城"
+      },
+      {
+        "pagePath": "pages/myhome/taken/myhome",
+        "iconPath": "static/tab_WoDedd.png",
+        "selectedIconPath": "static/tab_WoDe.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

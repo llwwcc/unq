@@ -1,0 +1,274 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 页面左右间距 */
+.liked.data-v-5e2af90a{
+	/* display: inline-block; */
+	position: relative;
+	margin-right: 10rpx;
+	width: 34rpx;
+	height: 34rpx;
+}
+.post-username.data-v-5e2af90a{
+	font-size:32rpx;
+	font-weight: 600;
+	color: #36648B;
+}
+.gallery_img.data-v-5e2af90a {
+	width: 100%;
+	height: 100%
+}
+.header.data-v-5e2af90a {
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	border-radius: 40rpx;
+}
+.publish.data-v-5e2af90a {
+	position: absolute;
+	top: 20rpx;
+	right: 20rpx;
+
+	/* z-index: 9999; */
+}
+.post_header.data-v-5e2af90a {
+	
+	width: 90rpx !important;
+	height: 90rpx !important;
+	border-radius: 10rpx;
+	margin-top: 8rpx;
+}
+#moments.data-v-5e2af90a {
+	background: #fff;
+}
+#moments .home-pic.data-v-5e2af90a {
+	width: 100%;
+	margin-top: -150rpx;
+	position: relative;
+	height: 500rpx;
+	z-index: 5;
+	margin-bottom: 50rpx;
+}
+#moments .home-pic-base.data-v-5e2af90a {
+	position: absolute;
+	left: -60rpx;
+	bottom: -40rpx;
+	width: 100%;
+	height: 160rpx;
+	padding: 0 30rpx;
+}
+#moments .home-pic-base .top-pic.data-v-5e2af90a {
+	width: 360rpx;
+	height: 360rpx;
+	
+	border-radius: 40rpx;
+	-webkit-transform: scale(0.5);
+	transform: scale(0.5);
+	-webkit-transform-origin: 100% 0%;
+	transform-origin: 100% 0%;
+	background-color: #ffffff;
+	
+	float: right
+}
+#moments .home-pic-base .top-name.data-v-5e2af90a {
+	position: absolute;
+	/* left: 20px; */
+	right: 240rpx;
+	top: 30rpx;
+	font-size: 32rpx;
+	font-weight: 600;
+	text-align: right;
+	color: #ffffff;
+	overflow: hidden
+}
+#moments .moments__post.data-v-5e2af90a {
+	background: #fff;
+	display: block;
+	border-bottom: 1px solid #f2eeee;
+	padding: 30rpx 20rpx;
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+#moments .moments__post.data-v-5e2af90a::before {
+	content: none
+}
+#moments .moments__post .post_right.data-v-5e2af90a {
+	font-size: 32rpx;
+	display: table-cell;
+	padding-left: 20rpx;
+	width: 100%;
+}
+/* #moments .moments__post .post_right .paragraphExtender {
+		margin: 5px auto;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex
+	} */
+#moments .moments__post .title.data-v-5e2af90a {
+	color: #094dcc
+}
+#moments .moments__post .thumbnails.data-v-5e2af90a {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	/* display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox; */
+	/* -webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap; */
+}
+#moments .moments__post .thumbnails .thumbnail.data-v-5e2af90a {
+	width: 30%;
+	height: 180rpx;
+	margin: 4rpx;
+	background: #757575;
+	overflow: hidden;
+}
+.my-gallery.data-v-5e2af90a{
+	width: 250rpx;
+	height: 400rpx;
+	margin: 4rpx;
+	background: #757575;
+	overflow: hidden
+}
+#moments .moments__post .toolbar.data-v-5e2af90a {
+	position: relative;
+	top: 10rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	align-items: center
+}
+#moments .moments__post .toolbar .timestamp.data-v-5e2af90a {
+	color: #757575;
+	font-size: 22rpx;
+}
+#moments .moments__post .like.data-v-5e2af90a {
+	width: auto;
+	height: auto;
+	position: absolute;
+	right: 60rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+#moments .moments__post .comment.data-v-5e2af90a {
+	width: auto;
+	height: auto;
+	position: absolute;
+	right: 0rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+#moments .moments__post .toolbar image.data-v-5e2af90a{
+	padding-left: 20rpx;
+	width: 40rpx;
+	height: 40rpx;
+}
+.post-footer.data-v-5e2af90a{
+	margin-top: 30rpx;
+	background-color: #f3f3f5;
+	width: 100%;
+}
+#moments .moments__post .footer_content.data-v-5e2af90a {
+	padding-left: 10rpx;
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap
+}
+#moments .moments__post .footer_content .nickname.data-v-5e2af90a {
+	color: #36648B;
+	font-size: 24rpx
+}
+#moments .moments__post .footer_content .comment-nickname.data-v-5e2af90a {
+	color: #36648B;
+	font-size: 24rpx
+}
+#moments .moments__post .footer_content .comment-content.data-v-5e2af90a {
+	color: #000000;
+	font-size: 24rpx
+}
+.foot.data-v-5e2af90a {
+	position: fixed;
+	width: 100%;
+	height: 90rpx;
+	min-height: 90rpx;
+	left: 0rpx;
+	bottom: 0rpx;
+	overflow: hidden;
+}
+.color.data-v-5e2af90a {
+  height: 72rpx;
+  line-height: 60rpx;
+  color: #ff5112;
+  border-bottom: 2px solid #FF0060;
+}
+.login-head-l1.data-v-5e2af90a {
+  width: inherit;
+  height: 85rpx;
+  line-height: 85rpx;
+  cursor: pointer;
+  text-align: center;
+  background: #fff;
+}
+.login-head-l1 text.data-v-5e2af90a:nth-child(1) {
+    margin-right: 100rpx;
+}
+.login-head-l1 text.data-v-5e2af90a {
+  font-size: 29rpx;
+  padding: 15rpx 20px;
+  color: black;
+  margin-top: 5px;
+}
+.login-head-l1.data-v-5e2af90a:before {
+  content: '';
+  height: 35px;
+  margin-left: 5px;
+}
+
